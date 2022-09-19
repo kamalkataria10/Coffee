@@ -1,0 +1,62 @@
+body{
+    background-image: url(https://images.unsplash.com/photo-1585314062340-f1a5a7c9328d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+}
+h1, h2, h3{
+    text-align: center;
+    color: rgb(121, 92, 239);
+}
+table, th, td{
+    color: rgb(80, 46, 216);
+    border: 1px solid rgb(8, 8, 8);
+    border-collapse: collapse;
+    padding: 10px;
+    width: 40%;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+}
+span{
+    margin-left: 40px;
+}
+.main{
+    margin-top: 30px;
+
+}
+.coffee{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+#total{
+    height: 20px;
+}
+.btn{
+    padding: 5px 15px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 1em;
+    background-color: rgb(121, 92, 239);
+    border-radius: 10px;
+    margin: 5px;
+}
+.btn:hover{
+    background-color: rgb(135, 224, 248);
+}
+.endButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.btn-c{
+    width: 30%;
+    padding: 10px; 
+}
+
+@media only screen and (max-width: 700px) {
+    .coffee{
+        display: inline;
+    }
+    .coffee2{
+        text-align: end;
+    }
+}
